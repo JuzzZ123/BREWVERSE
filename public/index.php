@@ -1,5 +1,10 @@
 <?php
 
+// Enable error reporting
+ini_set('display_errors', 1);
+ini_set('display_startup_errors', 1);
+error_reporting(E_ALL);
+
 use CodeIgniter\Boot;
 use Config\Paths;
 
@@ -9,7 +14,7 @@ use Config\Paths;
  *---------------------------------------------------------------
  */
 
-$minPhpVersion = '8.1'; // If you update this, don't forget to update `spark`.
+$minPhpVersion = '8.1';
 if (version_compare(PHP_VERSION, $minPhpVersion, '<')) {
     $message = sprintf(
         'Your PHP version must be %s or higher to run CodeIgniter. Current version: %s',
@@ -19,7 +24,6 @@ if (version_compare(PHP_VERSION, $minPhpVersion, '<')) {
 
     header('HTTP/1.1 503 Service Unavailable.', true, 503);
     echo $message;
-
     exit(1);
 }
 
@@ -32,6 +36,12 @@ if (version_compare(PHP_VERSION, $minPhpVersion, '<')) {
 // Path to the front controller (this file)
 define('FCPATH', __DIR__ . DIRECTORY_SEPARATOR);
 
+// Define paths for InfinityFree structure (everything in htdocs)
+define('APPPATH', FCPATH . 'app' . DIRECTORY_SEPARATOR);
+define('SYSTEMPATH', FCPATH . 'system' . DIRECTORY_SEPARATOR);
+define('VENDORPATH', FCPATH . 'vendor' . DIRECTORY_SEPARATOR);
+define('WRITEPATH', FCPATH . 'writable' . DIRECTORY_SEPARATOR);
+
 // Ensure the current directory is pointing to the front controller's directory
 if (getcwd() . DIRECTORY_SEPARATOR !== FCPATH) {
     chdir(FCPATH);
@@ -41,19 +51,27 @@ if (getcwd() . DIRECTORY_SEPARATOR !== FCPATH) {
  *---------------------------------------------------------------
  * BOOTSTRAP THE APPLICATION
  *---------------------------------------------------------------
- * This process sets up the path constants, loads and registers
- * our autoloader, along with Composer's, loads our constants
- * and fires up an environment-specific bootstrapping.
  */
 
-// LOAD OUR PATHS CONFIG FILE
-// This is the line that might need to be changed, depending on your folder structure.
-require FCPATH . '../app/Config/Paths.php';
-// ^^^ Change this line if you move your application folder
+// Load Composer's autoloader
+if (is_file(VENDORPATH . 'autoload.php')) {
+    require VENDORPATH . 'autoload.php';
+} else {
+    echo 'Cannot find composer autoloader. Please run "composer install".';
+    exit(1);
+}
+
+// Load our paths config file
+if (is_file(APPPATH . 'Config/Paths.php')) {
+    require APPPATH . 'Config/Paths.php';
+} else {
+    echo 'Cannot find paths config. Please check your installation.';
+    exit(1);
+}
 
 $paths = new Paths();
 
-// LOAD THE FRAMEWORK BOOTSTRAP FILE
-require $paths->systemDirectory . '/Boot.php';
+// Location of the framework bootstrap file.
+require SYSTEMPATH . 'Boot.php';
 
 exit(Boot::bootWeb($paths));
