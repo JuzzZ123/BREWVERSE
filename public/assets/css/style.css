@@ -1,0 +1,198 @@
+   /* Base Styles */
+   body {
+    font-family: 'Space Grotesk', sans-serif;
+    color: #E0E0E0;
+    background-color: #0A0F1C;
+}
+
+/* Modal Styling */
+.modal-content {
+    background: linear-gradient(145deg, #1a1f2e 0%, #0d1117 100%);
+    border: 1px solid rgba(123, 76, 255, 0.1);
+    border-radius: 24px;
+    box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5);
+}
+
+.modal-header {
+    border-bottom: 1px solid rgba(123, 76, 255, 0.1);
+    padding: 1.5rem 2rem;
+    background: rgba(123, 76, 255, 0.03);
+    border-radius: 24px 24px 0 0;
+}
+
+.modal-title {
+    font-size: 1.5rem;
+    background: linear-gradient(135deg, #fff 0%, #e0e0e0 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+}
+
+.modal-title i {
+    font-size: 1.8rem;
+    color: #7B4CFF;
+}
+
+.btn-close {
+    background: none;
+    border: none;
+    font-size: 1.5rem;
+    color: #E0E0E0;
+    opacity: 0.7;
+    transition: all 0.3s ease;
+}
+
+.btn-close:hover {
+    opacity: 1;
+    transform: rotate(90deg);
+}
+
+.modal-body {
+    padding: 2rem;
+}
+
+.profile-picture-container {
+    position: relative;
+    width: 150px;
+    height: 150px;
+    margin: 0 auto 2rem;
+    border-radius: 50%;
+    padding: 5px;
+    background: linear-gradient(135deg, #fff 0%, #7B4CFF 100%);
+}
+
+.profile-picture-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 4px solid #0d1117;
+    transition: all 0.3s ease;
+}
+
+.camera-button {
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+    width: 40px;
+    height: 40px;
+    background: linear-gradient(135deg, #7B4CFF 0%, #4C2EAA 100%);
+    border: 3px solid #0d1117;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.camera-button:hover {
+    transform: scale(1.1);
+    box-shadow: 0 6px 20px rgba(123, 76, 255, 0.3);
+}
+
+.form-group {
+    margin-bottom: 1.5rem;
+}
+
+.form-label {
+    color: #fff;
+    font-weight: 500;
+    margin-bottom: 0.75rem;
+    font-size: 0.95rem;
+    display: block;
+    letter-spacing: 0.5px;
+}
+
+.input-group {
+    background: rgba(255, 255, 255, 0.03);
+    border-radius: 12px;
+    overflow: hidden;
+    transition: all 0.3s ease;
+}
+
+.input-group:focus-within {
+    box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.2);
+}
+
+.input-group-text {
+    background: transparent;
+    border: none;
+    color: #fff;
+    padding: 0.75rem 1rem;
+}
+
+.form-control {
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    color: #fff;
+    padding: 0.75rem 1rem;
+    font-size: 1rem;
+}
+
+.form-control:focus {
+    background: rgba(255, 255, 255, 0.08);
+    border-color: #7B4CFF;
+    color: #fff;
+}
+
+.form-control::placeholder {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.modal-footer {
+    border-top: 1px solid rgba(123, 76, 255, 0.1);
+    padding: 1.5rem 2rem;
+    background: rgba(123, 76, 255, 0.03);
+    border-radius: 0 0 24px 24px;
+}
+
+.btn-cancel {
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    color: #fff;
+    padding: 0.75rem 1.5rem;
+    border-radius: 12px;
+    transition: all 0.3s ease;
+}
+
+.btn-cancel:hover {
+    background: rgba(255, 255, 255, 0.15);
+    color: #fff;
+}
+
+.btn-save {
+    background: linear-gradient(135deg, #7B4CFF 0%, #4C2EAA 100%);
+    color: #fff;
+    font-weight: 500;
+    padding: 0.75rem 1.5rem;
+    border-radius: 12px;
+    border: none;
+    transition: all 0.3s ease;
+}
+
+.btn-save:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 15px rgba(123, 76, 255, 0.3);
+}
+
+/* Help Text */
+.text-muted {
+    color: #a8b2d1 !important;
+}
+
+/* Read-only Input */
+.form-control[readonly] {
+    background: rgba(255, 255, 255, 0.02);
+    color: #a8b2d1;
+    border-color: rgba(255, 255, 255, 0.05);
+}
+
+/* Small helper text */
+.small {
+    color: #a8b2d1;
+}

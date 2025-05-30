@@ -1,0 +1,597 @@
+DEBUG - 2025-05-22 08:59:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-22 08:59:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-22 08:59:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-22 09:00:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-22 09:22:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-05-22 09:22:23 --> ErrorException: Undefined variable $groupedProducts
+[Method: GET, Route: menu]
+in APPPATH\Views\menu_view.php on line 159.
+ 1 APPPATH\Views\menu_view.php(159): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $groupedProducts', 'D:\\xampp\\htdocs\\codeigniter4-framework-v4.6.1-0-gd021b04 (2)\\codeigniter4-framework-v4.6.1-0-gd021b04\\test\\app\\Views\\menu_view.php', 159)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\codeigniter4-framework-v4.6.1-0-gd021b04 (2)\\codeigniter4-framework-v4.6.1-0-gd021b04\\test\\app\\Views\\menu_view.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('menu_view', [], true)
+ 5 APPPATH\Controllers\Menu.php(110): view('menu_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Menu->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Menu))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\codeigniter4-framework-v4.6.1-0-gd021b04 (2)\\codeigniter4-framework-v4.6.1-0-gd021b04\\test\\public\\index.php')
+DEBUG - 2025-05-22 09:23:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-22 09:25:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-22 09:26:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-22 09:27:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-22 09:27:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-22 09:28:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-22 09:28:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-22 09:29:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-22 09:29:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-22 09:29:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-22 09:30:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-22 09:30:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-22 09:30:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-22 09:30:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-22 09:31:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-22 09:31:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-22 09:31:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-22 09:33:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-22 09:34:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-22 09:34:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-22 09:34:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-22 09:35:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-22 09:35:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-22 09:35:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-22 09:35:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-22 09:35:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-22 09:35:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-22 09:35:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-22 09:35:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-22 09:36:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-22 09:36:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-22 09:36:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-22 09:36:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-22 09:36:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-22 09:36:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-22 09:36:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-22 09:40:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-22 09:41:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-22 09:41:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-22 09:41:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-22 09:41:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-22 09:42:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-22 09:42:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-22 09:42:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-22 09:42:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-22 09:43:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-22 09:43:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-22 09:43:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-22 09:43:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-22 09:43:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-22 09:44:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-05-22 09:44:13 --> ErrorException: Undefined array key "id"
+[Method: GET, Route: menu]
+in APPPATH\Views\menu_view.php on line 245.
+ 1 APPPATH\Views\menu_view.php(245): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'D:\\xampp\\htdocs\\codeigniter4-framework-v4.6.1-0-gd021b04 (2)\\codeigniter4-framework-v4.6.1-0-gd021b04\\test\\app\\Views\\menu_view.php', 245)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\codeigniter4-framework-v4.6.1-0-gd021b04 (2)\\codeigniter4-framework-v4.6.1-0-gd021b04\\test\\app\\Views\\menu_view.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('menu_view', [], true)
+ 5 APPPATH\Controllers\Menu.php(111): view('menu_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Menu->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Menu))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\codeigniter4-framework-v4.6.1-0-gd021b04 (2)\\codeigniter4-framework-v4.6.1-0-gd021b04\\test\\public\\index.php')
+DEBUG - 2025-05-22 09:44:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-05-22 09:44:38 --> ErrorException: Undefined array key "id"
+[Method: GET, Route: menu]
+in APPPATH\Views\menu_view.php on line 245.
+ 1 APPPATH\Views\menu_view.php(245): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'D:\\xampp\\htdocs\\codeigniter4-framework-v4.6.1-0-gd021b04 (2)\\codeigniter4-framework-v4.6.1-0-gd021b04\\test\\app\\Views\\menu_view.php', 245)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\codeigniter4-framework-v4.6.1-0-gd021b04 (2)\\codeigniter4-framework-v4.6.1-0-gd021b04\\test\\app\\Views\\menu_view.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('menu_view', [], true)
+ 5 APPPATH\Controllers\Menu.php(111): view('menu_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Menu->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Menu))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\codeigniter4-framework-v4.6.1-0-gd021b04 (2)\\codeigniter4-framework-v4.6.1-0-gd021b04\\test\\public\\index.php')
+DEBUG - 2025-05-22 09:45:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-05-22 09:45:31 --> ErrorException: Undefined array key "id"
+[Method: GET, Route: menu]
+in APPPATH\Views\menu_view.php on line 245.
+ 1 APPPATH\Views\menu_view.php(245): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'D:\\xampp\\htdocs\\codeigniter4-framework-v4.6.1-0-gd021b04 (2)\\codeigniter4-framework-v4.6.1-0-gd021b04\\test\\app\\Views\\menu_view.php', 245)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\codeigniter4-framework-v4.6.1-0-gd021b04 (2)\\codeigniter4-framework-v4.6.1-0-gd021b04\\test\\app\\Views\\menu_view.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('menu_view', [], true)
+ 5 APPPATH\Controllers\Menu.php(111): view('menu_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Menu->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Menu))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\codeigniter4-framework-v4.6.1-0-gd021b04 (2)\\codeigniter4-framework-v4.6.1-0-gd021b04\\test\\public\\index.php')
+DEBUG - 2025-05-22 09:46:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-22 09:48:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-05-22 09:48:10 --> ErrorException: Undefined array key "id"
+[Method: GET, Route: menu]
+in APPPATH\Views\menu_view.php on line 245.
+ 1 APPPATH\Views\menu_view.php(245): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'D:\\xampp\\htdocs\\codeigniter4-framework-v4.6.1-0-gd021b04 (2)\\codeigniter4-framework-v4.6.1-0-gd021b04\\test\\app\\Views\\menu_view.php', 245)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\codeigniter4-framework-v4.6.1-0-gd021b04 (2)\\codeigniter4-framework-v4.6.1-0-gd021b04\\test\\app\\Views\\menu_view.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('menu_view', [], true)
+ 5 APPPATH\Controllers\Menu.php(111): view('menu_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Menu->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Menu))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\codeigniter4-framework-v4.6.1-0-gd021b04 (2)\\codeigniter4-framework-v4.6.1-0-gd021b04\\test\\public\\index.php')
+DEBUG - 2025-05-22 09:51:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-22 09:51:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-22 09:51:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-22 09:51:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-22 09:51:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-22 09:51:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-22 09:52:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-22 09:52:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-22 09:52:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-22 09:52:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-22 09:52:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-22 09:52:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-22 09:52:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-22 09:52:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-22 09:57:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-05-22 09:57:56 --> ErrorException: Undefined array key "id"
+[Method: GET, Route: menu]
+in APPPATH\Views\menu_view.php on line 245.
+ 1 APPPATH\Views\menu_view.php(245): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'D:\\xampp\\htdocs\\codeigniter4-framework-v4.6.1-0-gd021b04 (2)\\codeigniter4-framework-v4.6.1-0-gd021b04\\test\\app\\Views\\menu_view.php', 245)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\codeigniter4-framework-v4.6.1-0-gd021b04 (2)\\codeigniter4-framework-v4.6.1-0-gd021b04\\test\\app\\Views\\menu_view.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('menu_view', [], true)
+ 5 APPPATH\Controllers\Menu.php(111): view('menu_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Menu->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Menu))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\codeigniter4-framework-v4.6.1-0-gd021b04 (2)\\codeigniter4-framework-v4.6.1-0-gd021b04\\test\\public\\index.php')
+DEBUG - 2025-05-22 09:58:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-05-22 09:58:05 --> ErrorException: Undefined array key "id"
+[Method: GET, Route: menu]
+in APPPATH\Views\menu_view.php on line 245.
+ 1 APPPATH\Views\menu_view.php(245): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'D:\\xampp\\htdocs\\codeigniter4-framework-v4.6.1-0-gd021b04 (2)\\codeigniter4-framework-v4.6.1-0-gd021b04\\test\\app\\Views\\menu_view.php', 245)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\codeigniter4-framework-v4.6.1-0-gd021b04 (2)\\codeigniter4-framework-v4.6.1-0-gd021b04\\test\\app\\Views\\menu_view.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('menu_view', [], true)
+ 5 APPPATH\Controllers\Menu.php(111): view('menu_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Menu->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Menu))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\codeigniter4-framework-v4.6.1-0-gd021b04 (2)\\codeigniter4-framework-v4.6.1-0-gd021b04\\test\\public\\index.php')
+DEBUG - 2025-05-22 09:58:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-22 09:58:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-22 09:58:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-22 09:58:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-22 09:58:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-22 10:06:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-22 10:06:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-22 10:07:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-22 10:07:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-22 10:07:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-22 10:07:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-22 10:07:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-22 10:07:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-22 10:08:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-22 10:08:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-22 10:08:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-22 10:09:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-22 10:09:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-22 10:09:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-22 10:09:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-05-22 10:09:51 --> mysqli_sql_exception: Unknown column 'username' in 'where clause' in D:\xampp\htdocs\codeigniter4-framework-v4.6.1-0-gd021b04 (2)\codeigniter4-framework-v4.6.1-0-gd021b04\test\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 D:\xampp\htdocs\codeigniter4-framework-v4.6.1-0-gd021b04 (2)\codeigniter4-framework-v4.6.1-0-gd021b04\test\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\xampp\htdocs\codeigniter4-framework-v4.6.1-0-gd021b04 (2)\codeigniter4-framework-v4.6.1-0-gd021b04\test\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\xampp\htdocs\codeigniter4-framework-v4.6.1-0-gd021b04 (2)\codeigniter4-framework-v4.6.1-0-gd021b04\test\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\xampp\htdocs\codeigniter4-framework-v4.6.1-0-gd021b04 (2)\codeigniter4-framework-v4.6.1-0-gd021b04\test\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xampp\htdocs\codeigniter4-framework-v4.6.1-0-gd021b04 (2)\codeigniter4-framework-v4.6.1-0-gd021b04\test\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\codeigniter4-framework-v4.6.1-0-gd021b04 (2)\codeigniter4-framework-v4.6.1-0-gd021b04\test\system\BaseModel.php(679): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\xampp\htdocs\codeigniter4-framework-v4.6.1-0-gd021b04 (2)\codeigniter4-framework-v4.6.1-0-gd021b04\test\app\Controllers\Menu.php(265): CodeIgniter\BaseModel->findAll()
+#7 D:\xampp\htdocs\codeigniter4-framework-v4.6.1-0-gd021b04 (2)\codeigniter4-framework-v4.6.1-0-gd021b04\test\system\CodeIgniter.php(933): App\Controllers\Menu->getCartSidebar()
+#8 D:\xampp\htdocs\codeigniter4-framework-v4.6.1-0-gd021b04 (2)\codeigniter4-framework-v4.6.1-0-gd021b04\test\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Menu))
+#9 D:\xampp\htdocs\codeigniter4-framework-v4.6.1-0-gd021b04 (2)\codeigniter4-framework-v4.6.1-0-gd021b04\test\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\xampp\htdocs\codeigniter4-framework-v4.6.1-0-gd021b04 (2)\codeigniter4-framework-v4.6.1-0-gd021b04\test\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#11 D:\xampp\htdocs\codeigniter4-framework-v4.6.1-0-gd021b04 (2)\codeigniter4-framework-v4.6.1-0-gd021b04\test\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 D:\xampp\htdocs\codeigniter4-framework-v4.6.1-0-gd021b04 (2)\codeigniter4-framework-v4.6.1-0-gd021b04\test\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 D:\xampp\htdocs\codeigniter4-framework-v4.6.1-0-gd021b04 (2)\codeigniter4-framework-v4.6.1-0-gd021b04\test\system\rewrite.php(44): require_once('D:\\xampp\\htdocs...')
+#14 {main}
+CRITICAL - 2025-05-22 10:09:51 --> Error: Call to a member function getResult() on bool
+[Method: GET, Route: menu/getCartSidebar]
+in SYSTEMPATH\Model.php on line 287.
+ 1 SYSTEMPATH\BaseModel.php(679): CodeIgniter\Model->doFindAll(0, 0)
+ 2 APPPATH\Controllers\Menu.php(265): CodeIgniter\BaseModel->findAll()
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Menu->getCartSidebar()
+ 4 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Menu))
+ 5 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\codeigniter4-framework-v4.6.1-0-gd021b04 (2)\\codeigniter4-framework-v4.6.1-0-gd021b04\\test\\public\\index.php')
+DEBUG - 2025-05-22 10:11:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-22 10:11:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-22 10:11:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-22 10:11:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-05-22 10:16:45 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: ""http:"
+[Method: GET, Route: %22http:/localhost:8080/index.php/menu/viewing_cart/%22]
+in SYSTEMPATH\Router\Router.php on line 741.
+ 1 SYSTEMPATH\Router\Router.php(207): CodeIgniter\Router\Router->checkDisallowedChars('"http:/localhost:8080/index.php/menu/viewing_cart/"')
+ 2 SYSTEMPATH\CodeIgniter.php(832): CodeIgniter\Router\Router->handle('"http:/localhost:8080/index.php/menu/viewing_cart/"')
+ 3 SYSTEMPATH\CodeIgniter.php(455): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\codeigniter4-framework-v4.6.1-0-gd021b04 (2)\\codeigniter4-framework-v4.6.1-0-gd021b04\\test\\public\\index.php')
+DEBUG - 2025-05-22 10:16:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-22 10:16:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-22 10:17:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-22 10:17:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-22 10:17:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-22 10:17:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-22 10:17:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-22 10:17:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-22 10:17:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-22 10:17:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-05-22 10:17:47 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "cart_sidebar.php"
+[Method: GET, Route: menu/getCartSidebar]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('cart_sidebar.php')
+ 2 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('cart_sidebar', [], true)
+ 3 APPPATH\Controllers\Menu.php(266): view('cart_sidebar', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Menu->getCartSidebar()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Menu))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\codeigniter4-framework-v4.6.1-0-gd021b04 (2)\\codeigniter4-framework-v4.6.1-0-gd021b04\\test\\public\\index.php')
+DEBUG - 2025-05-22 10:17:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-22 10:17:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-22 10:17:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-22 10:17:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-22 10:17:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-05-22 10:17:53 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "cart_sidebar.php"
+[Method: GET, Route: menu/getCartSidebar]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('cart_sidebar.php')
+ 2 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('cart_sidebar', [], true)
+ 3 APPPATH\Controllers\Menu.php(266): view('cart_sidebar', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Menu->getCartSidebar()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Menu))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\codeigniter4-framework-v4.6.1-0-gd021b04 (2)\\codeigniter4-framework-v4.6.1-0-gd021b04\\test\\public\\index.php')
+DEBUG - 2025-05-22 10:18:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-22 10:18:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-22 10:18:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-22 10:18:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-22 10:18:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-22 10:18:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-22 10:18:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-22 10:18:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-22 10:18:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-22 10:20:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-22 10:20:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-22 10:20:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-22 10:20:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-22 10:20:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-22 10:20:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-22 10:20:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-05-22 10:20:50 --> mysqli_sql_exception: Unknown column 'username' in 'where clause' in D:\xampp\htdocs\codeigniter4-framework-v4.6.1-0-gd021b04 (2)\codeigniter4-framework-v4.6.1-0-gd021b04\test\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 D:\xampp\htdocs\codeigniter4-framework-v4.6.1-0-gd021b04 (2)\codeigniter4-framework-v4.6.1-0-gd021b04\test\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\xampp\htdocs\codeigniter4-framework-v4.6.1-0-gd021b04 (2)\codeigniter4-framework-v4.6.1-0-gd021b04\test\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\xampp\htdocs\codeigniter4-framework-v4.6.1-0-gd021b04 (2)\codeigniter4-framework-v4.6.1-0-gd021b04\test\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\xampp\htdocs\codeigniter4-framework-v4.6.1-0-gd021b04 (2)\codeigniter4-framework-v4.6.1-0-gd021b04\test\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xampp\htdocs\codeigniter4-framework-v4.6.1-0-gd021b04 (2)\codeigniter4-framework-v4.6.1-0-gd021b04\test\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\codeigniter4-framework-v4.6.1-0-gd021b04 (2)\codeigniter4-framework-v4.6.1-0-gd021b04\test\system\BaseModel.php(679): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\xampp\htdocs\codeigniter4-framework-v4.6.1-0-gd021b04 (2)\codeigniter4-framework-v4.6.1-0-gd021b04\test\app\Controllers\Menu.php(266): CodeIgniter\BaseModel->findAll()
+#7 D:\xampp\htdocs\codeigniter4-framework-v4.6.1-0-gd021b04 (2)\codeigniter4-framework-v4.6.1-0-gd021b04\test\system\CodeIgniter.php(933): App\Controllers\Menu->getCartSidebar()
+#8 D:\xampp\htdocs\codeigniter4-framework-v4.6.1-0-gd021b04 (2)\codeigniter4-framework-v4.6.1-0-gd021b04\test\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Menu))
+#9 D:\xampp\htdocs\codeigniter4-framework-v4.6.1-0-gd021b04 (2)\codeigniter4-framework-v4.6.1-0-gd021b04\test\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\xampp\htdocs\codeigniter4-framework-v4.6.1-0-gd021b04 (2)\codeigniter4-framework-v4.6.1-0-gd021b04\test\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#11 D:\xampp\htdocs\codeigniter4-framework-v4.6.1-0-gd021b04 (2)\codeigniter4-framework-v4.6.1-0-gd021b04\test\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 D:\xampp\htdocs\codeigniter4-framework-v4.6.1-0-gd021b04 (2)\codeigniter4-framework-v4.6.1-0-gd021b04\test\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 D:\xampp\htdocs\codeigniter4-framework-v4.6.1-0-gd021b04 (2)\codeigniter4-framework-v4.6.1-0-gd021b04\test\system\rewrite.php(44): require_once('D:\\xampp\\htdocs...')
+#14 {main}
+CRITICAL - 2025-05-22 10:20:50 --> Error: Call to a member function getResult() on bool
+[Method: GET, Route: menu/getCartSidebar]
+in SYSTEMPATH\Model.php on line 287.
+ 1 SYSTEMPATH\BaseModel.php(679): CodeIgniter\Model->doFindAll(0, 0)
+ 2 APPPATH\Controllers\Menu.php(266): CodeIgniter\BaseModel->findAll()
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Menu->getCartSidebar()
+ 4 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Menu))
+ 5 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\codeigniter4-framework-v4.6.1-0-gd021b04 (2)\\codeigniter4-framework-v4.6.1-0-gd021b04\\test\\public\\index.php')
+DEBUG - 2025-05-22 10:20:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-05-22 10:20:52 --> mysqli_sql_exception: Unknown column 'username' in 'where clause' in D:\xampp\htdocs\codeigniter4-framework-v4.6.1-0-gd021b04 (2)\codeigniter4-framework-v4.6.1-0-gd021b04\test\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 D:\xampp\htdocs\codeigniter4-framework-v4.6.1-0-gd021b04 (2)\codeigniter4-framework-v4.6.1-0-gd021b04\test\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\xampp\htdocs\codeigniter4-framework-v4.6.1-0-gd021b04 (2)\codeigniter4-framework-v4.6.1-0-gd021b04\test\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\xampp\htdocs\codeigniter4-framework-v4.6.1-0-gd021b04 (2)\codeigniter4-framework-v4.6.1-0-gd021b04\test\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\xampp\htdocs\codeigniter4-framework-v4.6.1-0-gd021b04 (2)\codeigniter4-framework-v4.6.1-0-gd021b04\test\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xampp\htdocs\codeigniter4-framework-v4.6.1-0-gd021b04 (2)\codeigniter4-framework-v4.6.1-0-gd021b04\test\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp\htdocs\codeigniter4-framework-v4.6.1-0-gd021b04 (2)\codeigniter4-framework-v4.6.1-0-gd021b04\test\system\BaseModel.php(679): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\xampp\htdocs\codeigniter4-framework-v4.6.1-0-gd021b04 (2)\codeigniter4-framework-v4.6.1-0-gd021b04\test\app\Controllers\Menu.php(266): CodeIgniter\BaseModel->findAll()
+#7 D:\xampp\htdocs\codeigniter4-framework-v4.6.1-0-gd021b04 (2)\codeigniter4-framework-v4.6.1-0-gd021b04\test\system\CodeIgniter.php(933): App\Controllers\Menu->getCartSidebar()
+#8 D:\xampp\htdocs\codeigniter4-framework-v4.6.1-0-gd021b04 (2)\codeigniter4-framework-v4.6.1-0-gd021b04\test\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Menu))
+#9 D:\xampp\htdocs\codeigniter4-framework-v4.6.1-0-gd021b04 (2)\codeigniter4-framework-v4.6.1-0-gd021b04\test\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\xampp\htdocs\codeigniter4-framework-v4.6.1-0-gd021b04 (2)\codeigniter4-framework-v4.6.1-0-gd021b04\test\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#11 D:\xampp\htdocs\codeigniter4-framework-v4.6.1-0-gd021b04 (2)\codeigniter4-framework-v4.6.1-0-gd021b04\test\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 D:\xampp\htdocs\codeigniter4-framework-v4.6.1-0-gd021b04 (2)\codeigniter4-framework-v4.6.1-0-gd021b04\test\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 D:\xampp\htdocs\codeigniter4-framework-v4.6.1-0-gd021b04 (2)\codeigniter4-framework-v4.6.1-0-gd021b04\test\system\rewrite.php(44): require_once('D:\\xampp\\htdocs...')
+#14 {main}
+CRITICAL - 2025-05-22 10:20:52 --> Error: Call to a member function getResult() on bool
+[Method: GET, Route: menu/getCartSidebar]
+in SYSTEMPATH\Model.php on line 287.
+ 1 SYSTEMPATH\BaseModel.php(679): CodeIgniter\Model->doFindAll(0, 0)
+ 2 APPPATH\Controllers\Menu.php(266): CodeIgniter\BaseModel->findAll()
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Menu->getCartSidebar()
+ 4 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Menu))
+ 5 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\codeigniter4-framework-v4.6.1-0-gd021b04 (2)\\codeigniter4-framework-v4.6.1-0-gd021b04\\test\\public\\index.php')
+DEBUG - 2025-05-22 10:23:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-22 10:24:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-22 10:24:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-22 10:24:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-22 10:24:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-22 10:24:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-22 10:24:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-22 10:24:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-22 10:24:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-22 10:24:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-22 10:24:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-22 10:24:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-22 10:24:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-22 10:25:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-22 10:25:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-22 10:25:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-22 10:25:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-22 10:25:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-22 10:29:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-22 10:29:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-22 10:29:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-22 10:30:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-22 10:30:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-22 10:31:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-22 10:31:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-22 10:31:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-22 10:33:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-22 10:35:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-22 10:35:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-22 10:40:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-22 10:45:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-22 11:08:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-22 11:09:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-22 11:09:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-22 11:09:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-22 11:49:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-22 12:01:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-22 12:02:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-22 12:02:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-22 12:08:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-22 12:08:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-22 12:08:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-22 12:08:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-22 12:08:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-22 12:08:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-22 12:08:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-22 12:08:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-22 12:08:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-22 12:08:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-22 12:08:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-22 12:08:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-22 12:08:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-22 12:08:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-22 12:08:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-22 12:08:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-22 12:08:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-22 12:08:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-22 12:08:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-22 12:08:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-22 12:08:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-22 12:08:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-22 12:09:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-22 12:15:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-22 12:39:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-22 12:39:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-22 12:39:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-22 12:39:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-22 13:04:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-22 13:04:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-22 13:05:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-22 13:05:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-22 13:05:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-22 13:06:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-22 13:07:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-22 13:24:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-05-22 13:24:01 --> ErrorException: Undefined variable $ci4_tb
+[Method: GET, Route: menu_view]
+in APPPATH\Views\menu_view.php on line 201.
+ 1 APPPATH\Views\menu_view.php(201): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $ci4_tb', 'D:\\xampp\\htdocs\\codeigniter4-framework-v4.6.1-0-gd021b04 (2)\\codeigniter4-framework-v4.6.1-0-gd021b04\\test\\app\\Views\\menu_view.php', 201)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\codeigniter4-framework-v4.6.1-0-gd021b04 (2)\\codeigniter4-framework-v4.6.1-0-gd021b04\\test\\app\\Views\\menu_view.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('menu_view', [], true)
+ 5 APPPATH\Controllers\Menu.php(379): view('menu_view')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Menu->viewMenu()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Menu))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\codeigniter4-framework-v4.6.1-0-gd021b04 (2)\\codeigniter4-framework-v4.6.1-0-gd021b04\\test\\public\\index.php')
+DEBUG - 2025-05-22 13:24:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-05-22 13:24:36 --> ErrorException: Undefined variable $ci4_tb
+[Method: GET, Route: menu_view]
+in APPPATH\Views\menu_view.php on line 201.
+ 1 APPPATH\Views\menu_view.php(201): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $ci4_tb', 'D:\\xampp\\htdocs\\codeigniter4-framework-v4.6.1-0-gd021b04 (2)\\codeigniter4-framework-v4.6.1-0-gd021b04\\test\\app\\Views\\menu_view.php', 201)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\codeigniter4-framework-v4.6.1-0-gd021b04 (2)\\codeigniter4-framework-v4.6.1-0-gd021b04\\test\\app\\Views\\menu_view.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('menu_view', [], true)
+ 5 APPPATH\Controllers\Menu.php(379): view('menu_view')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Menu->viewMenu()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Menu))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\codeigniter4-framework-v4.6.1-0-gd021b04 (2)\\codeigniter4-framework-v4.6.1-0-gd021b04\\test\\public\\index.php')
+DEBUG - 2025-05-22 13:25:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-05-22 13:25:06 --> ErrorException: Undefined variable $ci4_tb
+[Method: GET, Route: menu_view]
+in APPPATH\Views\menu_view.php on line 201.
+ 1 APPPATH\Views\menu_view.php(201): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $ci4_tb', 'D:\\xampp\\htdocs\\codeigniter4-framework-v4.6.1-0-gd021b04 (2)\\codeigniter4-framework-v4.6.1-0-gd021b04\\test\\app\\Views\\menu_view.php', 201)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\codeigniter4-framework-v4.6.1-0-gd021b04 (2)\\codeigniter4-framework-v4.6.1-0-gd021b04\\test\\app\\Views\\menu_view.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('menu_view', [], true)
+ 5 APPPATH\Controllers\Menu.php(379): view('menu_view')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Menu->viewMenu()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Menu))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\codeigniter4-framework-v4.6.1-0-gd021b04 (2)\\codeigniter4-framework-v4.6.1-0-gd021b04\\test\\public\\index.php')
+DEBUG - 2025-05-22 13:25:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-05-22 13:25:59 --> ErrorException: Undefined variable $ci4_tb
+[Method: GET, Route: menu_view]
+in APPPATH\Views\menu_view.php on line 201.
+ 1 APPPATH\Views\menu_view.php(201): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $ci4_tb', 'D:\\xampp\\htdocs\\codeigniter4-framework-v4.6.1-0-gd021b04 (2)\\codeigniter4-framework-v4.6.1-0-gd021b04\\test\\app\\Views\\menu_view.php', 201)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\codeigniter4-framework-v4.6.1-0-gd021b04 (2)\\codeigniter4-framework-v4.6.1-0-gd021b04\\test\\app\\Views\\menu_view.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('menu_view', [], true)
+ 5 APPPATH\Controllers\Menu.php(379): view('menu_view')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Menu->viewMenu()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Menu))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\codeigniter4-framework-v4.6.1-0-gd021b04 (2)\\codeigniter4-framework-v4.6.1-0-gd021b04\\test\\public\\index.php')
+DEBUG - 2025-05-22 13:26:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-05-22 13:26:23 --> ErrorException: Undefined variable $ci4_tb
+[Method: GET, Route: menu_view]
+in APPPATH\Views\menu_view.php on line 201.
+ 1 APPPATH\Views\menu_view.php(201): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $ci4_tb', 'D:\\xampp\\htdocs\\codeigniter4-framework-v4.6.1-0-gd021b04 (2)\\codeigniter4-framework-v4.6.1-0-gd021b04\\test\\app\\Views\\menu_view.php', 201)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\codeigniter4-framework-v4.6.1-0-gd021b04 (2)\\codeigniter4-framework-v4.6.1-0-gd021b04\\test\\app\\Views\\menu_view.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('menu_view', [], true)
+ 5 APPPATH\Controllers\Menu.php(379): view('menu_view')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Menu->viewMenu()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Menu))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\codeigniter4-framework-v4.6.1-0-gd021b04 (2)\\codeigniter4-framework-v4.6.1-0-gd021b04\\test\\public\\index.php')
+DEBUG - 2025-05-22 13:26:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-22 13:26:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-22 13:27:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-22 13:27:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-22 13:29:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-22 13:29:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-05-22 13:29:41 --> ErrorException: Undefined variable $ci4_tb
+[Method: GET, Route: menu_view]
+in APPPATH\Views\menu_view.php on line 201.
+ 1 APPPATH\Views\menu_view.php(201): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $ci4_tb', 'D:\\xampp\\htdocs\\codeigniter4-framework-v4.6.1-0-gd021b04 (2)\\codeigniter4-framework-v4.6.1-0-gd021b04\\test\\app\\Views\\menu_view.php', 201)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\codeigniter4-framework-v4.6.1-0-gd021b04 (2)\\codeigniter4-framework-v4.6.1-0-gd021b04\\test\\app\\Views\\menu_view.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('menu_view', [], true)
+ 5 APPPATH\Controllers\Menu.php(379): view('menu_view')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Menu->viewMenu()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Menu))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\codeigniter4-framework-v4.6.1-0-gd021b04 (2)\\codeigniter4-framework-v4.6.1-0-gd021b04\\test\\public\\index.php')
+DEBUG - 2025-05-22 13:30:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-05-22 13:30:25 --> ErrorException: Undefined variable $ci4_tb
+[Method: GET, Route: menu_view]
+in APPPATH\Views\menu_view.php on line 201.
+ 1 APPPATH\Views\menu_view.php(201): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $ci4_tb', 'D:\\xampp\\htdocs\\codeigniter4-framework-v4.6.1-0-gd021b04 (2)\\codeigniter4-framework-v4.6.1-0-gd021b04\\test\\app\\Views\\menu_view.php', 201)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\codeigniter4-framework-v4.6.1-0-gd021b04 (2)\\codeigniter4-framework-v4.6.1-0-gd021b04\\test\\app\\Views\\menu_view.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('menu_view', [], true)
+ 5 APPPATH\Controllers\Menu.php(379): view('menu_view')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Menu->viewMenu()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Menu))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\codeigniter4-framework-v4.6.1-0-gd021b04 (2)\\codeigniter4-framework-v4.6.1-0-gd021b04\\test\\public\\index.php')
+CRITICAL - 2025-05-22 13:30:49 --> ErrorException: Undefined property: App\Controllers\Menu::$productModel
+[Method: GET, Route: menu_view]
+in APPPATH\Controllers\Menu.php on line 378.
+ 1 APPPATH\Controllers\Menu.php(378): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Menu::$productModel', 'D:\\xampp\\htdocs\\codeigniter4-framework-v4.6.1-0-gd021b04 (2)\\codeigniter4-framework-v4.6.1-0-gd021b04\\test\\app\\Controllers\\Menu.php', 378)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Menu->viewMenu()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Menu))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\codeigniter4-framework-v4.6.1-0-gd021b04 (2)\\codeigniter4-framework-v4.6.1-0-gd021b04\\test\\public\\index.php')
+DEBUG - 2025-05-22 13:40:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-05-22 13:40:41 --> ErrorException: Undefined variable $ci4_tb
+[Method: GET, Route: menu_view]
+in APPPATH\Views\menu_view.php on line 201.
+ 1 APPPATH\Views\menu_view.php(201): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $ci4_tb', 'D:\\xampp\\htdocs\\codeigniter4-framework-v4.6.1-0-gd021b04 (2)\\codeigniter4-framework-v4.6.1-0-gd021b04\\test\\app\\Views\\menu_view.php', 201)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\codeigniter4-framework-v4.6.1-0-gd021b04 (2)\\codeigniter4-framework-v4.6.1-0-gd021b04\\test\\app\\Views\\menu_view.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('menu_view', [], true)
+ 5 APPPATH\Config\Routes.php(18): view('menu_view')
+ 6 SYSTEMPATH\CodeIgniter.php(875): CodeIgniter\Router\RouteCollection->{closure}()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->startController()
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\codeigniter4-framework-v4.6.1-0-gd021b04 (2)\\codeigniter4-framework-v4.6.1-0-gd021b04\\test\\public\\index.php')
+DEBUG - 2025-05-22 13:46:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-05-22 13:46:08 --> ErrorException: Undefined variable $ci4_tb
+[Method: GET, Route: menu_view]
+in APPPATH\Views\menu_view.php on line 201.
+ 1 APPPATH\Views\menu_view.php(201): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $ci4_tb', 'D:\\xampp\\htdocs\\codeigniter4-framework-v4.6.1-0-gd021b04 (2)\\codeigniter4-framework-v4.6.1-0-gd021b04\\test\\app\\Views\\menu_view.php', 201)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\xampp\\htdocs\\codeigniter4-framework-v4.6.1-0-gd021b04 (2)\\codeigniter4-framework-v4.6.1-0-gd021b04\\test\\app\\Views\\menu_view.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('menu_view', [], true)
+ 5 APPPATH\Config\Routes.php(18): view('menu_view')
+ 6 SYSTEMPATH\CodeIgniter.php(875): CodeIgniter\Router\RouteCollection->{closure}()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->startController()
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\xampp\\htdocs\\codeigniter4-framework-v4.6.1-0-gd021b04 (2)\\codeigniter4-framework-v4.6.1-0-gd021b04\\test\\public\\index.php')
+DEBUG - 2025-05-22 13:48:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-05-22 13:49:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
